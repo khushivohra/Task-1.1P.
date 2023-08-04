@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <style>
+        body {
+            padding: 0;
+            margin: 0;
+        }
+
+        .navigationbar {
+            position: absolute;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            background-color: rgb(49, 41, 41);
+            border-radius: 3px;
+            width:1520px
+        }
+
+        .navigationbar ul {
+            overflow: auto;
+        }
+
+        .navigationbar li {
+            float: left;
+            list-style: none;
+            margin: 16px 20px;
+        }
+
+        .navigationbar li a {
+            padding: 2px 2px;
+            text-decoration: none;
+            color: aliceblue
+        }
+
+        .name p {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            font-size: 33px;
+            font-weight: bold;
+            padding: 10px 630px;
+            background-color: black;
+            opacity: 0;
+            color: #fff;
+            width: 260px;
+            transition: opacity 0.5s ease-in-out;
+        }
+
+        .size:hover+.name p {
+            opacity: 1;
+        }
+
+        .description H3 {
+            display: block;
+            font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+            color: black(255, 158, 47);
+            width: 169px;
+            margin: auto;
+        }
+
+        .size img {
+            display: block;
+            width: 1520px;
+            height: 750px;    
+        }
+
+        .profile img {
+            display: block;
+            width: 230px;
+            height: 240px;
+            margin: auto;
+            border: 2px solid black;
+            border-radius: 1000px;
+        }
+
+        .line {
+            border-bottom: 5px solid gray;
+            margin-top: 2px;
+            width: 40%;
+            margin: auto;
+        }
+
+        .box {
+            display: block;
+            width: 1450px;
+            height: 950px;
+            border: 3px solid black;
+            margin: auto;
+        }
+
+        .intro p {
+            display: block;
+            width: 717px;
+            margin: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            font-size: 22px;
+        }
+
+        .a h2 {
+            display: block;
+            width: 300px;
+            margin: auto;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+
+        .project img {
+            display: block;
+            width: 450px;
+            height: 360px;
+            margin-left: 370px;
+            border: 3px solid black;
+            border-radius: 20px;
+        }
+
+
+        .project H3 {
+            width: 500px;
+            font-size: 20px;
+            margin-left: 850px;
+            margin-top: -300px;
+            color: olive;
+        }
+
+        .project p {
+            width: 500px;
+            font-size: 20px;
+            margin-left: 850px;
+            margin-top: -15px;
+        }
+
+        .drone img {
+            display: block;
+            width: 450px;
+            height: 360px;
+            margin-left: 370px;
+            margin-top: 100px;
+            border: 3px solid black;
+            border-radius: 20px;
+        }
+
+        .drone h3 {
+            width: 500px;
+            font-size: 20px;
+            margin-left: 850px;
+            margin-top: -350px;
+            color: olive;
+        }
+
+        .drone p {
+            width: 500px;
+            font-size: 20px;
+            margin-left: 850px;
+            margin-top: -10px;
+        }
+
+        .line1 {
+            border-bottom: 5px solid gray;
+            margin-top: 4px;
+            width: 60%;
+            margin: auto;
+        }
+
+        .text h1 {
+            display: block;
+            width: 300px;
+            margin: auto;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            color: olive;
+        }
+
+        .gallery {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .gallery f1 {
+            display: flex;
+            width: 200px;
+            height: 200px;
+            margin-left: 1080px;
+            margin-top: -350px;
+            margin-bottom: 20px;
+            border: 2px solid black;
+        }
+
+        .line2 {
+            border-bottom: 5px solid black;
+            margin-top: 4px;
+            width: 60%;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <nav class="navigationbar">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Work</a></li>
+                    <li><a href="#">Contact us</a></li>
+                </ul>
+            </nav>
+        </nav>
+    </header>
+
+    <div class="size">
+        <img src="Deakin.jfif " alt="The Deakin university">
+    </div>
+
+    <div class="name">
+        <p>Hello, I'm Khushi</p>
+    </div>
+    <br>
+    <div class="description">
+        <H3>JOB DESCRIPTION</H3>
+    </div>
+    <br>
+    <div class="profile">
+        <img src="khushi.PNG" alt="Profile Picture">
+    </div>
+
+    <br>
+
+    <div class="box">
+
+        <div class="intro">
+            <p>I'm a student at Chitkara university and I'm pursuing Software Engineering</p>
+        </div>
+        <br>
+
+        <div class="line">
+        </div>
+        <br>
+        <div class="a">
+
+            <h2>Here's what I've done so far</h2>
+        </div>
+        <br>
+        <br>
+        <div class="project">
+            <img src="Car.jpg" alt="The Car Rover">
+            <H3>Project description</H3>
+            <p>An Arduino-based car rover is a compact robot that utilizes an Arduino microcontroller board as its
+                central
+                processing unit. By integrating Arduino programming with mechanical components, it becomes a dynamic
+                mobile
+                device capable of executing diverse tasks.
+                The rover generally features two or more motor-driven wheels, precisely controlled by the Arduino board.
+                Moreover, it can incorporate an array of sensors, such as ultrasonic, infrared, or camera modules, to
+                facilitate perception and interaction with its surroundings.</p>
+        </div>
+
+        <div class="drone">
+            <img src="Drone.jpg" alt="Drone">
+            <H3>Project description</H3>
+            <p>A drone constructed with an Arduino Uno is a compact unmanned aerial vehicle (UAV) that relies on the
+                Arduino
+                Uno board as its primary flight controller. The Arduino Uno acts as the central processor, executing the
+                flight control software and analyzing data from diverse sensors to stabilize and govern the drone's
+                flight.
+                By utilizing Electronic Speed Controllers (ESCs), the drone regulates the speed of its brushless motors
+                and
+                propellers, which generate the necessary lift and forward motion. Incorporated with an Inertial
+                Measurement
+                Unit (IMU) that houses a gyroscope and accelerometer, the drone can ascertain its orientation and
+                acceleration, facilitating the Arduino's task of maintaining stability and adjusting flight behavior.
+            </p>
+
+        </div>
+        <br>
+        <div class="line1">
+        </div>
+    </div>
+    <div class="text">
+        <h1 align="center">My Photos</h1>
+    </div>
+    <div class="gallery">
+        <div class="f1">
+            <img src="f1.jpg" alt="Flowers">
+        </div>
+        <div class="f1">
+            <img src="f2.jpg" alt="Flowers">
+        </div>
+
+        <div class="f1">
+            <img src="f3.jpg" alt="Flowers">
+        </div>
+
+        <div class="f1">
+            <img src="f4.jpg" alt="Flowers">
+        </div>
+    </div>
+    <br>
+    <div class = "line2">
+    </div>
+    <br>
+
+</body>
+
+</html>
